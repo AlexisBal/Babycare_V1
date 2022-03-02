@@ -1,0 +1,82 @@
+.modal {
+    z-index: 4;
+    display: none;
+    top:0;
+    left:0;
+    position:absolute;
+    height: 100%;
+    align-items: center;
+    height: 100%;
+    /* width: 100%; */
+    /* margin: auto; */
+    right: 0;
+}
+
+.modal .close-modal {
+    background:transparent;
+    border:none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 640px)
+{
+    .modal-content {
+        width: 100%;
+        height: 100%;
+        top:0;
+    }
+}
+
+@media screen and (min-width: 640px)
+{
+    .modal-content {
+        width: 50%;
+        border-radius: 8px;
+        max-height: 80%;
+    }
+}
+
+.modal-content {
+    z-index:6;
+    /* position: absolute; */
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    box-shadow: 0px 0px 16px 1px #2e2e2e;
+    padding:8px;
+    box-sizing: border-box;
+    animation-fill-mode: forwards;
+    animation-duration: 300ms;
+    overflow: auto;
+}
+
+.modal-shadow {
+    background-color: #2e2e2e;
+    opacity: 0.4;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+
+@keyframes modalAnimationIn {
+    from {transform: translate(0, -1000px);opacity: 0;}
+    to {transform: translate(0, 0);opacity: 1;}
+}
+
+@keyframes modalAnimationOut {
+    to { transform: translate(0, -1000px); opacity: 1;}
+    from { transform: translate(0, 0); opacity: 0;}
+}
+
+.animation-hide{
+    animation-name: modalAnimationOut;
+}
+
+.animation-show {
+    animation-name: modalAnimationIn;
+}

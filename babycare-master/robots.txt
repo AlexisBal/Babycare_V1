@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /utilisateur/
+
+Sitemap: https://babycare-website.com/sitemap.xml

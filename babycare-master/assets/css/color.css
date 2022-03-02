@@ -1,0 +1,42 @@
+:root {
+    --text-color: #2e2e2e;
+    --hover-text-color: var(--text-color);
+    --green1: #7ED957;
+    --green2: #95C708;
+    --green3: #008037;
+    --dark-gray: #2e2e2e;
+    --light-gray: #9d9d9d;
+    --danger-color: #D60000;
+}
+
+.text-color {
+    color:var(--text-color);
+}
+
+.text-green1 {
+    --text-color:var(--green1)
+}
+
+.text-green2 {
+    --text-color:var(--green2)
+}
+
+.text-green3 {
+    --text-color:var(--green3)
+}
+
+.hover-text-green1 {
+    --hover-text-color:var(--green1)
+}
+
+.hover-text-green2 {
+    --hover-text-color:var(--green2)
+}
+
+.hover-text-green3 {
+    --hover-text-color:var(--green3)
+}
+
+.text-white {
+    color:white;
+}

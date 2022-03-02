@@ -1,0 +1,50 @@
+:root {
+    --duration:1s;
+    --duration-300:300ms;
+    --duration-500:500ms;
+    --duration-2000:2s;
+    animation-name: MyAnimationName;
+}
+
+.duration-300 {
+    --duration:var(--duration-300)
+}
+
+.duration-500 {
+    --duration:var(--duration-500)
+}
+
+.duration-2000 {
+    --duration:var(--duration-2000)
+}
+
+/* Text Color Hover Animation */
+
+.hover-text-color {
+    animation-duration: var(--duration);
+    animation-fill-mode: forwards;
+    color: var(--text-color);
+    transition: color var(--duration);
+}
+
+.hover-text-color:hover {
+    color: var(--hover-text-color);
+    transition: color var(--duration);
+}
+
+
+.group-hover:hover .display-animation {
+    max-height: none; opacity: 1;
+    transition: max-height var(--duration), opacity var(--duration);
+}
+
+
+.display-animation {
+    animation-duration: var(--duration);
+    animation-name: var(--groupAnimation);
+    animation-fill-mode: forwards;
+    overflow: hidden;
+
+    max-height: 0; opacity: 0;
+    transition: max-height var(--duration), opacity var(--duration);
+}
