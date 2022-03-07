@@ -1,6 +1,6 @@
 <?php
 // Activation des erreurs. A DESACTIVER LORS DE LA MISE EN PRODUCTION
-ini_set('display_errors', 0);
+ini_set('display_errors', 1);
 
 // Rapporte toutes les erreurs PHP
 ini_set('error_reporting', E_ALL);
