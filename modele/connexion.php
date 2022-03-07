@@ -1,9 +1,9 @@
 <?php
 
-$servername = "sql712.main-hosting.eu";
-$dbname = "u538522988_babycare";
-$username = "u538522988_babycare";
-$password = "Nr@Y7XT:6P7";
+$servername = "herogu.garageisep.com";
+$dbname = "3hNsp2D9cG_babycare";
+$username = "AFl43e0HgX_babycare";
+$password = "VQ1TSchk0JjmAbg1";
 
 // Connexion à la base de données
 try {
