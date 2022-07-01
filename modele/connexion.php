@@ -1,9 +1,9 @@
 <?php
 
 $servername = "herogu.garageisep.com";
-$dbname = "3hNsp2D9cG_babycare";
-$username = "AFl43e0HgX_babycare";
-$password = "VQ1TSchk0JjmAbg1";
+$dbname = "2YasfoxhZv_babycare";
+$username = "g4g7LrsR1F_babycare";
+$password = "5e66RNAWKUwRfGFT";
 
 // Connexion à la base de données
 try {
